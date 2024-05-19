@@ -1,5 +1,5 @@
 echo "Compiling..."
-g++ -O2 -o snake src/main.cpp || exit 1
+g++ -O2 -std=c++20 -o snake src/main.cpp || exit 1
 
 echo "Testing..."
 for i in {1..100}; do
